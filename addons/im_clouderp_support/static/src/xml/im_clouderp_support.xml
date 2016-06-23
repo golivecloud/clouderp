@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+    <!-- <t t-extend="UserMenu">
+        <t t-jquery=".dropdown-menu li:eq(3)" t-operation="after">
+            <li class="clouderp_support_contact">
+                <a data-menu="clouderp_support" href="#">clouderp Support</a>
+            </li>
+        </t>
+    </t> -->
+</templates>

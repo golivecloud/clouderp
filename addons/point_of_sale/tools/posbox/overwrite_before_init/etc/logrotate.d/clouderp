@@ -1,0 +1,5 @@
+/var/log/clouderp/*.log {
+    copytruncate
+    missingok
+    notifempty
+}

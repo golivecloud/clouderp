@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import gce
+
+if __name__ == "__main__":
+    gce.cli.main()
+

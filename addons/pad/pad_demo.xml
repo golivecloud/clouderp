@@ -1,0 +1,13 @@
+<gce>
+  <data>
+
+    <record id="base.main_company" model="res.company">
+      <field name="pad_server">https://pad.golive.pt</field>
+    </record>
+    
+    <record id="base.main_company" model="res.company">
+      <field name="pad_key">4DxmsNIbnQUVQMW9S9tx2oLOSjFdrx1l</field>
+    </record>
+
+  </data>
+</gce>

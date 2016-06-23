@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gce>
+    <data>
+
+        <template id="assets_backend" name="im_clouderp_support assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+               <script type="text/javascript" src="/im_clouderp_support/static/src/js/im_clouderp_support.js"></script>
+                <script type="text/javascript">
+                    clouderp.define(function (require) {
+                        var clouderpSupport = require('im_clouderp_support.clouderpSupport');
+                        new clouderpSupport(
+                            "<t t-esc="request.session.login"/>",
+                            "<t t-esc="request.registry['ir.config_parameter'].get_param(request.cr, request.uid, 'database.uuid')"/>"
+                        );
+                    });
+                </script>
+            </xpath>
+        </template>
+
+    </data>
+</gce>

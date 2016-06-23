@@ -1,0 +1,40 @@
+include requirements.txt
+include LICENSE
+include README.md
+recursive-include gce *.css
+recursive-include gce *.csv
+recursive-include gce *.doc
+recursive-include gce *.eml
+recursive-include gce *.eot
+recursive-include gce *.gif
+recursive-include gce *.html
+recursive-include gce *.ico
+recursive-include gce *.jpeg
+recursive-include gce *.jpg
+recursive-include gce *.js
+recursive-include gce *.less
+recursive-include gce *.md
+recursive-include gce *.mp3
+recursive-include gce *.ogg
+recursive-include gce *.otf
+recursive-include gce *.pdf
+recursive-include gce *.png
+recursive-include gce *.po
+recursive-include gce *.rml
+recursive-include gce *.rng
+recursive-include gce *.rst
+recursive-include gce *.sass
+recursive-include gce *.sql
+recursive-include gce *.svg
+recursive-include gce *.template
+recursive-include gce *.txt
+recursive-include gce *.ttf
+recursive-include gce *.woff
+recursive-include gce *.woff2
+recursive-include gce *.wsdl
+recursive-include gce *.xsd
+recursive-include gce *.xsl
+recursive-include gce *.xml
+recursive-include gce *.yml
+recursive-exclude * *.py[co]
+recursive-exclude * *.hg*
